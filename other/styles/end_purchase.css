@@ -1,0 +1,115 @@
+.ticket {
+    background-color: rgb(255, 250, 231);
+    padding: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.67);
+    display: inline-block;
+    margin: 50px 3%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(59, 59, 59);
+}
+
+.ticket * {
+    padding: 0;
+    margin: 0;
+}
+
+.ticket-border {
+    display: flex;
+    border-style: solid;
+    border-color: rgb(255, 48, 48);
+    border-width: 3px;
+    padding: 20px;
+}
+
+.ticket-header {
+    padding-right: 15px;
+    border-right-style: dashed;
+    border-color: rgb(122, 122, 122);
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket-header img {
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.ticket-header h4 {
+    font-size: 1.5rem;
+}
+
+.ticket-body {
+    padding: 0 20px;
+}
+
+.ticket-element-cont {
+    margin-bottom: 10px;
+}
+
+.tk-sub-title {
+    font-weight: 500;
+}
+
+.tk-inline {
+    display: inline;
+}
+
+.tk-separator {
+    border: none;
+    border-top: solid;
+    border-width: 2px;
+    border-color: rgb(122, 122, 122);
+    margin: 10px 0;
+}
+
+.whatsapp-btn {
+    display: table;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 1em auto;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 1em 2em 1em 3.5em;
+    border-radius: 2em;
+    font-weight: bold;
+    background: #25d366 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg%27') no-repeat 1.5em center;
+    background-size: 1.6em;
+}
+
+
+@media (max-width: 655px) {
+    .ticket-border {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ticket-header {
+        border: none;
+    }
+
+    .ticket-header img {
+        height: 70px;
+    }
+
+    .tk-inline {
+        display: block;
+    }
+
+    .tk-separator {
+        margin: 5px 0;
+    }
+
+    .ticket-element-cont {
+        margin-bottom: 5px;
+    }
+
+    .ticket-border {
+        padding: 10px;
+    }
+
+    .ticket * {
+        line-height: 1.2;
+    }
+}

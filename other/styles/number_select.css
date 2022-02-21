@@ -1,0 +1,143 @@
+.pe-none {
+    cursor: not-allowed;
+}
+
+.container-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-grid {
+    padding: 4px !important;
+    margin: 2px !important;
+    width: 50px;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 10;
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80px
+}
+
+.back-top-icon {
+    width: 100%
+}
+
+.btn-number-press {
+    background-color: #535353;
+    color: white;
+}
+
+.btn-number-press:hover {
+    background-color: #535353;
+    color: white;
+}
+
+.btn-number-lock {
+    background-color: rgb(66, 66, 66);
+    cursor: not-allowed;
+    color: rgb(66, 66, 66);
+}
+
+.btn-number-lock:hover {
+    background-color: rgb(66, 66, 66);
+    cursor: not-allowed;
+    color: rgb(66, 66, 66);
+}
+
+.cant-disponibles {
+    background-color: #e20000;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    flex-wrap: wrap;
+}
+
+.number-selected-element {
+    background-color: #61C43D;
+    color: white;
+    border-radius: 12px;
+    padding: 5px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.grid-control-btn {
+    width: 55px;
+}
+
+.confirm-click-cont {
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    border-radius: 18px;
+    color: rgb(71, 71, 71);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.confirm-click-grid {
+    position: fixed;
+    top: 30px;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+#confirm-click-msj img {
+    width: 100px;
+    margin: 5px 0;
+}
+
+.img-remove {
+    width: 85px;
+    margin: 10px 0;
+}
+
+#loading-animation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5353535d;
+    z-index: 30;
+}
+
+#loading-animation div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading-animation img {
+    width: 100px;
+}

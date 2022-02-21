@@ -1,0 +1,16 @@
+/assets
+/globals
+/header-footer-grid
+/inc
+/languages
+/mercadopago
+/page-templates
+/views
+/woocommerce
+/template-parts
+/stripe-php
+
+ .php-version
+ 404.php
+ 500.php
+ autoloader.php
